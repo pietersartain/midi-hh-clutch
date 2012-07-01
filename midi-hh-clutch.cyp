@@ -7,7 +7,7 @@
  </folder>
  <folder name="C Files" >
   <extension name="c" />
-  <file path="${PROJECT_PATH}/gpio.c" />
+  <file path="${PROJECT_PATH}/midi-hh-clutch.c" />
   <file path="${PROJECT_PATH}/putchar.c" />
  </folder>
  <folder name="Header Files" >
