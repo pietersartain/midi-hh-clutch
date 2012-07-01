@@ -17,8 +17,6 @@ Project level include files.
 Private constants and types.
 ******************************************************************************/
 
-#define SELECTED FALLING
-
 // Error codes
 enum
 {
@@ -68,16 +66,6 @@ int main(int argc, char * argv[])
 {    
   
   long kickthreshold = 0xFFFFFE4A;
-	char ach;
-	char bch;
-	
-    // Set gpio13 as input (disable output)
-    fd.io.gp12_15_out.dis13 = 1;
-    // Enable gpio interrupt on sw1
-    fd.io.gp12_15_cfg.int13 = SELECTED;
-    
-    // Disable port C for test
-    fd.port.dis.c = 1;
 
 	while (1)
 	{
