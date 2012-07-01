@@ -16,6 +16,7 @@ The interesting code is in midi-hh-clutch.c, the rest is support for the [Cyan T
 ## Improvements/TODOs
 
 * Adjust the midi-velocity out to be a function of pedal-down velocity (i.e. rate of change of resistance).
+* Do I need to run it at full speed? Like the MIDI pedal, my feet aren't that fast.
 * Replace the eCog1k eval board with something more appropriate, like an MSP430 or an AVR.
 
 ## References / Resources
